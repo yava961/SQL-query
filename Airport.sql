@@ -27,13 +27,13 @@ ALTER TABLE planes ADD FOREIGN KEY (pilot_id) REFERENCES pilots(id);
 
 INSERT INTO pilots (name, age, planes)
 VALUES
-    ('John Smith', 35, 'Boeing 747, Airbus A320'),
-    ('Sarah Jones', 40, 'Boeing 747, Airbus A320'),
-    ('Tom Lee', 28, 'Airbus A320'),
-    ('Lisa Kim', 33, 'Airbus A320'),
-    ('Mike Chen', 42, 'Airbus A320'),
-    ('Emily Wong', 29, 'Airbus A320'),
-    ('David Park', 37, 'Airbus A320');
+    ('Tom Holland', 35, 'Boeing 747, Airbus A320'),
+    ('Mark Wahlberg', 40, 'Boeing 747, Airbus A320'),
+    ('Jet Lee', 28, 'Airbus A320'),
+    ('Silvester Stalone', 33, 'Airbus A320'),
+    ('Jackie Chan', 42, 'Airbus A320'),
+    ('Angelina Jolie', 29, 'Airbus A320'),
+    ('Julia Roberts', 37, 'Airbus A320');
 
 INSERT INTO planes (model, serial_number, seats, pilot_id)
 VALUES
